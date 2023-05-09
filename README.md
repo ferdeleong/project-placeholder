@@ -1,38 +1,68 @@
-# Site Reliability Engineering - Week 1 - Portfolio Site
+# Site Reliability Engineering - Portfolio Site
 
-Welcome to the MLH Fellowship! During Week 1, you'll be using Flask to build a portfolio site. This site will be the foundation for activities we do in future weeks so spend time this week making it your own and reflect your personality!
+![Captura de Pantalla 2023-05-09 a la(s) 2 05 15 p m](https://github.com/ferdeleong/project-placeholder/assets/78885738/02f85b1e-1e43-40a2-aad2-51fe8516d289)
 
-## Tasks
+Learned about Linux through a Flask project on the VPS, bash automation scripting, Test-Driven Development, Docker containerization, CI/CD pipelines through Github Actions, troubleshooting and monitoring using Prometheus and Grafana. The goal of the internship was to gain a comprehensive understanding of system reliability,
+scalability, and performance.
 
-Once you've got your portfolio downloaded and running using the instructions below, you should attempt to complete the following tasks.
+## Tasks Week 2
 
-For each of these tasks, you should create an [Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and work on them in a new [branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches). When the task has been completed, you should open a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and get another fellow in your pod to give you feedback before merging it in.
+Deploy their Flask app on a remote instance (doesn’t stay hosted when they close their terminal)
 
-*Note: Make sure to include a link to the Issue you're progressing on inside of your Pull Request so your reviewer knows what you're progressing on!*
+- [x] Create Digital Ocean VPS CentOS Stream 8, Basic Regular Intel with SSD 1GB / 1 CPU / 25GB Disk
+- [x] Authentication: SSH keys
+- [x] Install git & python3 installed
+- [x] Install python virtual environment 
+- [x] Run Flask Application
+- [x] Get Your Free Subdomain with DuckDNS
+- [x] Keep Flask App Running with Tmux
 
-### GitHub Tasks
-- [x] Create Issues for each task below
-- [x] Progress on each task in a new branch
-- [x] Open a Pull Request when a task is finished to get feedback
+## Tasks Week 3
 
-### Portfolio Tasks
-- [x] Add a photo of yourself to the website
-- [x] Add an "About youself" section to the website.
-- [x] Add your previous work experiences
-- [x] Add your hobbies (including images)
-- [x] Add your current/previous education
-- [x] Add a map of all the cool locations/countries you visited
+Set up your VPS instances in the cloud and chain together a load of the steps using scripting. Used scripting to speed up workflows and automate parts of the process.
 
-### Flask Tasks
-- [x] Get your Flask app running locally on your machine using the instructions below.
-- [x] Add a template for adding multiple work experiences/education/hobbies using [Jinja](https://jinja.palletsprojects.com/en/3.0.x/api/#basics)
-- [x] Create a new page to display hobbies.
-- [x] Add a menu bar that dynamically displays other pages in the app
+- [x] Automate Deployment with Bash Scripting
 
 
-## Getting Started
+## Tasks Week 4
 
-You need to do all your progress here.
+Deployed the project as a service, meaning your website will continue to be hosted when disconnected from the VPS.
+
+- [x] Creating Service
+- [ ] Install a MySQL Database Server
+- [x] Create Save and Retrieval Endpoints
+- [x] Create Timeline Post Page
+
+## Tasks Week 5
+
+Testing the changes to prevent bugs making their way into production. These tests will be used in future weeks to combine it with CI/CD. 
+
+Database Testing
+- [x] Flask Application Testing
+
+## Tasks Week 6
+
+“Containerise” the project in its current state, and then isolating different components out. Write configuration files, such as Dockerfile and Docker Compose
+
+- [x] Setting up Docker
+- [x] Test Docker Installation
+- [x] Container Orchestration
+- [x] Set Up Nginx and HTTPS
+
+## Tasks Week 8
+
+Build tests into continuous integration systems to check new changes automatically on GitHub, using GitHub Actions. Once tests are running automatically, deploy your containers automatically to the VPS. Wrote YAML and build GitHub Actions.
+
+- [x] GitHub Actions - Tests
+- [x] GitHub Actions Deploy to DigitalOcean 
+
+## Tasks Week 9
+
+Monitor linux processes and memory usage and add monitoring systems into your projects, such as Prometheus and Grafana.
+
+- [x] I/O Monitoring and Disk Bottlenecks
+- [x] Setup Grafana Dashboards
+
 
 ## Installation
 
